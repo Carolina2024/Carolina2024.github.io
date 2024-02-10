@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');/* url de fonts.google primero se selecciona y se copia link */
+
+*{
+  font-family: 'Roboto', sans-serif;/* se copia de fonts google  */
+}
+
+#inicio{
+  height: 395px;/* alto */
+}
+

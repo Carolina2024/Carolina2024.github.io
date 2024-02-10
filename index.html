@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <!-- getbootstrap docs download se descarga los archivos CSS Y JS y se copia en la carpeta assets, despues se escribe este link -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- se agrega css con archivo externo -->
+    <script
+      src="https://kit.fontawesome.com/23956bccd2.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- para iconos de fontawesome, crear cta y se copia link del kit -->
+    <title>Carolina Castillo</title>
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target="#nv">
+    <!-- PRUEBA FINAL CON BOOTSTRAP VERSION 5.3, SE OCUPA PRETTIER PARA EL ORDEN DE LAS LÍNEAS -->
+
+    <!-- DE BOOTSTRAP COMPONENTS EL NAVBAR VERSION 5.3 -->
+    <div class="container-fluid bg-dark fixed-top" id="nv">
+      <nav class="container navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="assets/img/logoc.png"
+              class="img-fluid"
+              alt="logo-nombre"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#inicio" onclick="navbarCollape()"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#perfil" onclick="navbarCollape()"
+                  >Perfil</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#educacion" onclick="navbarCollape()"
+                  >Educación</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#experiencia"
+                  onclick="navbarCollape()"
+                  >Experiencia</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portafolio" onclick="navbarCollape()"
+                  >Portafolio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto" onclick="navbarCollape()"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- termina el nav -->
+    </div>
+    <!-- termina container-fluid -->
+
+    <!-- HEADER DE LA PÁGINA -->
+    <header id="inicio" class="container-fluid bg-black mt-5">
+      <!-- comienza el header -->
+      <div class="text-center pt-5">
+        <img
+          class="rounded mt-5 img-fluid img-thumbnail"
+          src="assets/img/fotocv.jpg"
+          alt="fotocv"
+        />
+      </div>
+    </header>
+    <!-- termina el header -->
+
+    <!-- SECCCION DE PERFIL -->
+    <section class="container-fluid bg-white" id="perfil">
+      <div class="text-center fs-1 fw-bold pt-5">
+        <p>PERFIL</p>
+      </div>
+      <div class="text-center text-dark py-4">
+        <p class="fs-6">
+          Titulada Técnico Nivel Superior Analista Programador, Ingeniería
+          ejecución en Gestión Industrial y de Ingeniería ejecución en Maderas.
+          <br />
+          Tengo facilidad para el análisis de la información. <br />
+          Con dedicación para la escritura, lo que me favorece tener una lectura
+          más rápida. <br />
+          Con habilidad de comunicación, lo que me permite generar contactos sin
+          dificultad.
+        </p>
+      </div>
+    </section>
+
+    <!-- SECCION EDUCACIÓN 1 row 3 col 3 cards  -->
+    <section
+      class="container-fluid bg-light mt-3 border border-secondary-subtle"
+      id="educacion"
+    >
+      <!-- se crea container -->
+      <div class="text-center fs-1 fw-bold pt-4">
+        <p>EDUCACIÓN</p>
+      </div>
+      <div class="container bg-white-50 p-4 mt-2">
+        <div class="row row-gap-5 justify-content-center">
+          <!-- se crea la fila -->
+          <!-- primera columna -->
+          <div class="col-12 col-lg-4">
+            <!-- 1 col de 12 espacios teléfono y 3 col de 4 espacios desktop -->
+            <div class="card mb-3 p-2">
+              <!-- card -->
+              <div class="row g-0">
+                <div
+                  class="col-md-4 justify-content-center align-items-center pt-4"
+                >
+                  <img
+                    src="assets/img/vgomez.jpg"
+                    class="img-fluid rounded-start"
+                    alt="logo-virginio"
+                  />
+                </div>
+                <div class="col-md-8 text-start">
+                  <div class="card-body">
+                    <img
+                      src="assets/img/ivg.jpg"
+                      class="img-fluid rounded-start mb-2"
+                      alt="logo-v"
+                    />
+                    <p class="card-text">
+                      Técnico Nivel Superior Analista Programador - Excelencia
+                      Académica.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-body-secondary">2021 - 2022</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- termina card -->
+          </div>
+          <!-- termina primera col -->
+
+          <!-- segunda columna -->
+          <div class="col-12 col-lg-4">
+            <!-- 1 col de 12 espacios teléfono y 3 col de 4 espacios desktop -->
+            <div class="card mb-3 p-2">
+              <!-- card -->
+              <div class="row g-0">
+                <div
+                  class="col-md-4 justify-content-center align-items-center pt-4"
+                >
+                  <img
+                    src="assets/img/utfsm.jpg"
+                    class="img-fluid rounded-start"
+                    alt="logo-utfsm"
+                  />
+                </div>
+                <div class="col-md-8 text-start">
+                  <div class="card-body">
+                    <img
+                      src="assets/img/utt.jpg"
+                      class="img-fluid rounded-start mb-2"
+                      alt="logo-t"
+                    />
+                    <p class="card-text">
+                      Ingeniería de ejecución en Gestión Industrial - Excelencia
+                      Académica.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-body-secondary">2010 - 2012</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- termina card -->
+          </div>
+          <!-- termina segunda col -->
+
+          <!-- tercera columna -->
+          <div class="col-12 col-lg-4">
+            <!-- 1 col de 12 espacios teléfono y 3 col de 4 espacios desktop -->
+            <div class="card mb-3 p-2">
+              <!-- card -->
+              <div class="row g-0">
+                <div
+                  class="col-md-4 justify-content-center align-items-center pt-4"
+                >
+                  <img
+                    src="assets/img/ubb.jpg"
+                    class="img-fluid rounded-start"
+                    alt="logo-ubb"
+                  />
+                </div>
+                <div class="col-md-8 text-start">
+                  <div class="card-body">
+                    <img
+                      src="assets/img/ub.jpg"
+                      class="img-fluid rounded-start mb-2"
+                      alt="logo-b"
+                    />
+                    <p class="card-text">
+                      Ingeniería de <br />
+                      ejecución <br />
+                      en Maderas.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-body-secondary">2000 - 2005</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- termina card -->
+          </div>
+          <!-- termina tercera col -->
+        </div>
+        <!-- termina la fila -->
+      </div>
+      <!-- termina container -->
+    </section>
+    <!-- termina el container fluid -->
+
+    <!-- SECCCIÓN DE EXPERIENCIA 1 row 4 col 4 card -->
+    <section
+      class="container-fluid bg-light border border-secondary-subtle mt-5 pt-4"
+      id="experiencia"
+    >
+      <!-- se crea container fluid -->
+      <div class="text-center fs-1 fw-bold pt-4">
+        <p>EXPERIENCIA</p>
+      </div>
+      <div class="container bg-white-50 p-4 mt-4">
+        <div class="row row-gap-5">
+          <!-- se crea la fila -->
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <!-- primera columna -->
+            <div class="card">
+              <!-- card -->
+              <img
+                src="assets/img/radio.jpg"
+                class="card-img-top img-fluid p-3"
+                alt="radiobiobio"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Práctica Profesional</h5>
+                <p class="card-text">Radio Bío Bío</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">De Diciembre 2022 a Enero 2023</li>
+                <li class="list-group-item">
+                  Programación con Android Studio, con lenguaje Kotlin.
+                </li>
+              </ul>
+            </div>
+            <!-- termina card -->
+          </div>
+          <!-- termina primera columna -->
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <!-- segunda columna -->
+            <div class="card">
+              <!-- card -->
+              <img
+                src="assets/img/mercpubl.jpg"
+                class="card-img-top img-fluid p-3"
+                alt="mercadopublico"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Administradora ChileCompra</h5>
+                <p class="card-text">Empresa Salgado</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">De Abril 2015 a Julio 2021</li>
+                <li class="list-group-item">
+                  Administración plataforma Mercado Público.
+                </li>
+              </ul>
+            </div>
+            <!-- termina card -->
+          </div>
+          <!-- termina segunda columna -->
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <!-- tercera columna -->
+            <div class="card">
+              <!-- card -->
+              <img
+                src="assets/img/uchile.jpg"
+                class="card-img-top img-fluid p-3"
+                alt="uchile"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Coordinadora pedagógica</h5>
+                <p class="card-text">Universidad de Chile</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">De Marzo 2012 a Diciembre 2014</li>
+                <li class="list-group-item">
+                  Supervisión a examinadoras en aplicación de pruebas.
+                </li>
+              </ul>
+            </div>
+            <!-- termina card -->
+          </div>
+          <!-- termina tercera columna -->
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <!-- cuarta columna -->
+            <div class="card">
+              <!-- card -->
+              <img
+                src="assets/img/aserr.jpg"
+                class="card-img-top img-fluid p-3"
+                alt="aserradero"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Jefe área aserradero</h5>
+                <p class="card-text">Aserradero Marchihue</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">De Enero 2006 a Diciembre 2011</li>
+                <li class="list-group-item">
+                  Planificación de producción, control de calidad.
+                </li>
+              </ul>
+            </div>
+            <!-- termina card -->
+          </div>
+          <!-- termina cuarta columna -->
+        </div>
+        <!-- termina la fila -->
+      </div>
+      <!-- termina container -->
+    </section>
+    <!-- termina container fluid -->
+
+    <!-- SECCION PORTAFOLIO -->
+    <section
+      class="container-fluid bg-light border border-secondary-subtle mt-5 pt-4"
+      id="portafolio"
+    >
+      <!-- se crea container fluid -->
+      <div class="text-center fs-1 fw-bold pt-4">
+        <p>PORTAFOLIO</p>
+      </div>
+      <div class="container bg-white-50 p-4 mt-4">
+        <div class="row row-gap-5">
+          <!-- comienza fila -->
+          <div class="col-12">
+            <!-- comienza primera columna -->
+            <div class="card text-center mt-2">
+              <!-- comienza card -->
+              <div class="card-header bg-white">
+                <img
+                  src="assets/img/desafio1.jpg"
+                  class="img-fluid p-4"
+                  alt="desafio1"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Desafío 1</h5>
+                <p class="card-text">Mi Curriculum Vitae en HTML</p>
+                <a
+                  href="https://github.com/Carolina2024/desafio1"
+                  target="_blank"
+                  class="btn btn-primary m-2"
+                  >Github</a
+                >
+                <a
+                  href="https://carolina2024.github.io/desafio1/index.html"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Github Page</a
+                >
+              </div>
+            </div>
+            <!-- termina card -->
+          </div>
+          <!-- termina primera columna -->
+
+          <div class="col-12">
+            <!-- comienza segunda columna -->
+            <div class="card text-center mt-2">
+              <!-- comienza card -->
+              <div class="card-header bg-white">
+                <img
+                  src="assets/img/desafio2.jpg"
+                  class="img-fluid p-4"
+                  alt="desafio2"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Desafío 2</h5>
+                <p class="card-text">Construyendo un landing page</p>
+                <a
+                  href="https://github.com/Carolina2024/desafio2"
+                  target="_blank"
+                  class="btn btn-primary m-2"
+                  >Github</a
+                >
+                <a
+                  href="https://carolina2024.github.io/desafio2/"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Github Page</a
+                >
+              </div>
+            </div>
+            <!-- termina card -->
+          </div>
+          <!-- termina segunda columna -->
+
+          <div class="col-12">
+            <!-- comienza tercera columna -->
+            <div class="card text-center mt-2">
+              <!-- comienza card -->
+              <div class="card-header bg-white">
+                <img
+                  src="assets/img/desafio3.jpg"
+                  class="img-fluid p-4"
+                  alt="desafio3"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Desafío 3</h5>
+                <p class="card-text">Iguana page</p>
+                <a
+                  href="https://github.com/Carolina2024/desafio3"
+                  target="_blank"
+                  class="btn btn-primary m-2"
+                  >Github</a
+                >
+                <a
+                  href="https://carolina2024.github.io/desafio3/"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Github Page</a
+                >
+              </div>
+            </div>
+            <!-- termina card -->
+          </div>
+          <!-- termina tercera columna -->
+
+          <div class="col-12">
+            <!-- comienza cuarta columna -->
+            <div class="card text-center mt-2">
+              <!-- comienza card -->
+              <div class="card-header bg-white">
+                <img
+                  src="assets/img/desafio4.jpg"
+                  class="img-fluid p-4"
+                  alt="desafio4"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Desafío 4</h5>
+                <p class="card-text">Cuppon</p>
+                <a
+                  href="https://github.com/Carolina2024/desafio4"
+                  target="_blank"
+                  class="btn btn-primary m-2"
+                  >Github</a
+                >
+                <a
+                  href="https://carolina2024.github.io/desafio4/"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Github Page</a
+                >
+              </div>
+            </div>
+            <!-- termina card -->
+          </div>
+          <!-- termina cuarta columna -->
+
+          <div class="col-12">
+            <!-- comienza quinta columna -->
+            <div class="card text-center mt-2">
+              <!-- comienza card -->
+              <div class="card-header bg-white">
+                <img
+                  src="assets/img/desafio5.jpg"
+                  class="img-fluid p-4"
+                  alt="desafio5"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Desafío 5</h5>
+                <p class="card-text">Github</p>
+                <a
+                  href="https://github.com/Carolina2024/fdsw-github"
+                  target="_blank"
+                  class="btn btn-primary m-2"
+                  >Github</a
+                >
+                <a
+                  href="https://carolina2024.github.io/fdsw-github/"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Github Page</a
+                >
+              </div>
+            </div>
+            <!-- termina card -->
+          </div>
+          <!-- termina quinta columna -->
+        </div>
+        <!-- termina fila -->
+      </div>
+      <!-- termina container -->
+    </section>
+    <!-- termina container fluid -->
+
+    <!-- CONTACTO -->
+    <section class="container-fluid mt-3 pt-3" id="contacto">
+      <div class="text-center fs-1 fw-bold pt-4">
+        <p>CONTACTO</p>
+      </div>
+      <div class="col-12 text-center fs-5 pt-3">
+        <p>Me puedes contactar al Linkedin</p>
+      </div>
+      <div class="text-center">
+        <a
+          href="https://www.linkedin.com/in/carolina-castillo-chile/"
+          target="_blank"
+          ><i class="fa-brands fa-linkedin fa-3x"></i>
+        </a>
+      </div>
+    </section>
+    <!-- termina container fluid -->
+
+    <!-- SUBIR PÁGINA -->
+    <div class="d-flex justify-content-end me-3 mb-2 mt-4">
+      <a href="#inicio"><i class="fa-solid fa-eject fa-3x"></i> </a>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="container-fluid bg-dark mt-5">
+      <footer class="container bg-dark text-center mt-2 text-white p-4">
+        <p class="mb-0 px-4">
+          © 2024 Carolina Castillo. Todos los derechos reservados.
+        </p>
+      </footer>
+    </div>
+
+    <!-- SE AGREGA SCRIPT PARA QUE FUNCIONE JS -->
+    <script src="assets/js/bootstrap.js"></script>
+  </body>
+</html>
